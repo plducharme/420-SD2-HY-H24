@@ -24,7 +24,7 @@ Ceci clonera ce dépôt-ci. Ce dépôt contient les exercices en classe pour la 
 2) Créer deux classes enfants qui représenteront des instruments de musique spécifique (guitare, piano, guimbarde, etc)
 - Ces classes devront contenir des propriétés spécifiques à ces instruments
 - Ajouter une méthode spécifique à chaque classe
-- Redéfinir une méthode d'une des classes enfants
+- Redéfinir une des méthodes de la classe parente
 - Respectez l'encapsulation
 - Appelez les divers constructeurs et méthodes pour observer les résultats
 
