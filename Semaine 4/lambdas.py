@@ -1,4 +1,4 @@
-# Déclarer un lambda à une variable et utiliser le
+# Déclarer un lambda à une variable et utiliser-le
 
 # Déclarer un lambda à plusieurs variables
 
