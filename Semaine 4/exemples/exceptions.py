@@ -1,0 +1,2 @@
+open('filename.txt')
+
