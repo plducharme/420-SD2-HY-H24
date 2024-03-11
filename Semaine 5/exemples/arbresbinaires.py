@@ -47,12 +47,21 @@ class Noeud:
             self.__droite.afficher()
 
 
+# Début du programme
+# Liste des items à insérer
 items = [6, 8, 2, 4, 0, 7, 3, 9]
+# La racine n'existe pas encore
 racine = None
-for i in items:
+# On parcourt la liste des items pour les insérer, un par un, par la racine
+for item in items:
+    # Si aucune racine existe, le noeud devient la racine
     if racine is None:
-        racine = Noeud(i)
+        # On créé le noeud racine en appelant le constructeur de Noeud avec l'item en paramètre. Le noeud va contenir
+        # l'item
+        racine = Noeud(item)
+    # Sinon, on l'insère par la racine (en créer un Noeud) en appelant la méthode insertion(self, nouveau_noeud)
     else:
-        racine.insertion(Noeud(i))
+        racine.insertion(Noeud(item))
+# L'on affiche les items triés en effectuant une recherche en profondeur.
 racine.afficher()
 
