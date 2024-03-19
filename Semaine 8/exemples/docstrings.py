@@ -18,7 +18,6 @@ class Levier:
     def __init__(self, type_levier: int):
         self.type_levier = type_levier
 
-
     def calcul_force(self, masse_objet: float, rayon_masse: float, rayon_bras: float):
         """Méthode permettant de calculer la force nécessaire pour lever un objet.
 
@@ -36,6 +35,6 @@ class Levier:
                 """
 
         if self.type_levier == Levier.LEVIER_BILATERAL:
-            return masse_objet*9.8*rayon_masse/rayon_bras
+            return masse_objet * 9.8 * rayon_masse / rayon_bras
         else:
             return None
