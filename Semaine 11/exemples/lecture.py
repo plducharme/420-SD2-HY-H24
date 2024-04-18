@@ -10,18 +10,18 @@ with open('citations.txt', encoding="utf8") as reader:
         print(ligne, end='')
         ligne = reader.readline()
 
-with open('citations.txt') as reader:
+with open('citations.txt', mode="rt") as reader:
     # Lire en utilisant un itérateur
     for ligne in reader:
         print(ligne, end='')
 
 
-with open('citations.txt') as reader:
+with open('citations.txt', mode="rt") as reader:
     # Lire toutes les lignes et retourne une liste de lignes
     lignes = reader.readlines()
 
 
-with open('citations.txt') as reader:
+with open('citations.txt', mode="rb") as reader:
     # lire un nombre d'octets (bytes) du fichier, si -1, lis le fichier en entier
     grosseur_chunk = 512
     chunk = reader.read(grosseur_chunk)
