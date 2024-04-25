@@ -1,0 +1,11 @@
+{
+  "nom": "Killkenny",
+  "contenant": {
+    "couleur": "rouge",
+    "materiel": "aluminium",
+    "description": [
+      { "fr":  "Biere Servir tres froid"},
+      { "en":  "Beer Serve extra cold"}
+    ]
+  }
+}

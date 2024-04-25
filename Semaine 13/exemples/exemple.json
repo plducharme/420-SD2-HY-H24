@@ -1,0 +1,29 @@
+{
+  "acteurs": [
+    {
+      "nom": "Tom Cruise",
+      "anneeDeNaissance": 1962,
+      "aDesEnfants": true,
+      "poids": 67.5,
+      "epouse": null,
+      "enfants": [
+        "Suri",
+        "Isabella Jane",
+        "Connor"
+      ]
+    },
+    {
+      "nom": "Harry Belafonte",
+      "anneeDeNaissance": 1927,
+      "aDesEnfants": true,
+      "poids": null,
+      "epouse": null,
+      "enfants": [
+        "Shari",
+        "David",
+        "Adrienne",
+        "Gina"
+      ]
+    }
+  ]
+}

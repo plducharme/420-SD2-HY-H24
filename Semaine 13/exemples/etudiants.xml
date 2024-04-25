@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<etudiants>
+    <etudiant>
+        <nom>Laframboise</nom>
+        <prenom>George</prenom>
+        <numeroDa>123456789</numeroDa>
+        <cours>
+            <inscrit nom="Mathématiques discrètes" dureeCours="2" dureeLab="3" dureeTravaux="3"/>
+            <inscrit nom="Programmation Orientée Objet" dureeCours="2" dureeLab="3" dureeTravaux="3"/>
+            <inscrit nom="Physique Mécanique" dureeCours="2" dureeLab="3" dureeTravaux="3"/>
+            <inscrit nom="Chimie Générale" dureeCours="2" dureeLab="3" dureeTravaux="3"/>
+        </cours>
+    </etudiant>
+    <etudiant>
+        <nom>Nguyen</nom>
+        <prenom>Anita</prenom>
+        <numeroDa>123456777</numeroDa>
+        <cours>
+            <inscrit nom="Mathématiques discrètes" dureeCours="2" dureeLab="3" dureeTravaux="3"/>
+            <inscrit nom="Programmation Orientée Objet" dureeCours="2" dureeLab="3" dureeTravaux="3"/>
+            <inscrit nom="Philosophie: Éthique" dureeCours="3" dureeLab="0" dureeTravaux="1"/>
+            <inscrit nom="Chimie Générale" dureeCours="2" dureeLab="3" dureeTravaux="3"/>
+        </cours>
+    </etudiant>
+    <etudiant>
+        <nom>Desrosiers</nom>
+        <prenom>Maxime</prenom>
+        <numeroDa>123456788</numeroDa>
+        <cours>
+            <inscrit nom="Chimie Analytique" dureeCours="2" dureeLab="3" dureeTravaux="3"/>
+            <inscrit nom="Programmation Orientée Objet" dureeCours="2" dureeLab="3" dureeTravaux="3"/>
+            <inscrit nom="Éducation Physique" dureeCours="2" dureeLab="2" dureeTravaux="1"/>
+            <inscrit nom="Chimie Générale" dureeCours="2" dureeLab="3" dureeTravaux="3"/>
+        </cours>
+    </etudiant>
+    <etudiant>
+        <nom>Bérard</nom>
+        <prenom>Malik</prenom>
+        <numeroDa>123446789</numeroDa>
+        <cours>
+            <inscrit nom="Mathématiques discrètes" dureeCours="2" dureeLab="3" dureeTravaux="3"/>
+            <inscrit nom="Programmation Orientée Objet" dureeCours="2" dureeLab="3" dureeTravaux="3"/>
+            <inscrit nom="Littérature" dureeCours="2" dureeLab="2" dureeTravaux="2"/>
+            <inscrit nom="Chimie Générale" dureeCours="2" dureeLab="3" dureeTravaux="3"/>
+        </cours>
+    </etudiant>
+</etudiants>
