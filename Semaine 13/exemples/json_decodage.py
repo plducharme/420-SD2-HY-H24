@@ -1,8 +1,8 @@
 # Import du module json
 import json
 
-# lecture a partir d'un fichier
-with open('exemple.json', 'r') as acteurs_json:
+# lecture à partir d'un fichier
+with open('exemple.json', 'rt') as acteurs_json:
     liste_acteurs = json.load(acteurs_json)
     # Impression du premier acteur de la liste
     print(liste_acteurs['acteurs'][0])

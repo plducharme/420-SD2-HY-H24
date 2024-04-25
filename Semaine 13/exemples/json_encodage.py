@@ -6,9 +6,9 @@ jeu_json = json.dumps(twwh3)
 print(jeu_json)
 
 # Encode le dictionnaire Python vers un fichier json
-with open('twwh3.json', 'w') as json_file:
+with open('twwh3.json', 'wt') as json_file:
     json.dump(twwh3, json_file)
 # Encode le dictionnaire Python vers un fichier json avec une indentation
-with open("twwh3_indent.json", "w") as json_file:
+with open("twwh3_indent.json", "wt") as json_file:
     json.dump(twwh3, json_file, indent=4)
 
