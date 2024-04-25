@@ -9,7 +9,7 @@ class SimpleMathTestCase(unittest.TestCase):
         self.instance = SimpleMath()
 
     def test_somme(self):
-        self.assertEqual(SimpleMath().somme(1, 1), 2)
+        self.assertEqual(SimpleMath.somme(1, 1), 2)
 
     def test_soustraction(self):
         self.assertEqual(self.instance.soustraction(2, 1), 1)

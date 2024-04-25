@@ -2,9 +2,9 @@
 
 class SimpleMath:
 
-    def somme(self, a, b):
+    @staticmethod
+    def somme(a, b):
         return a + b
-
     def soustraction(self, a, b):
         return a - b
 
