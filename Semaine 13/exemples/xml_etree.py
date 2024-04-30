@@ -19,7 +19,7 @@ class EtudiantETParser:
     def parse_etudiants(self, chemin_fichier: str) -> List[Etudiant]:
         # parse le fichier XML
         self._arbre = ET.parse(chemin_fichier)
-        # Retourne la rabcine
+        # Retourne la racine
         self._racine = self._arbre.getroot()
         liste_etudiants = []
         # iter(tag) retourne la liste des Element enfant au tag
@@ -51,7 +51,9 @@ class EtudiantETParser:
     def handle_cours(cours) -> List[Cours]:
         liste_cours = []
         for enfant in cours:
-            cours_inscrit = Cours(nom=enfant.attrib["nom"], duree_cours=int(enfant.attrib["dureeCours"]), duree_lab=int(enfant.attrib["dureeLab"]), duree_travaux=int(enfant.attrib["dureeTravaux"]))
+            cours_inscrit = Cours(nom=enfant.attrib["nom"], duree_cours=int(enfant.attrib["dureeCours"]),
+                                  duree_lab=int(enfant.attrib["dureeLab"]),
+                                  duree_travaux=int(enfant.attrib["dureeTravaux"]))
             liste_cours.append(cours_inscrit)
         return liste_cours
 

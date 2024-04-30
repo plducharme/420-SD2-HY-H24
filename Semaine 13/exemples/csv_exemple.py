@@ -6,14 +6,14 @@ with open('exemple.csv', mode='rt') as csv_file:
     for ligne in csv_reader:
         # On peut utiliser l'index des colonnes
         print(f'{ligne[0]} | {ligne[1]} | {ligne[2]} | {ligne[3]}')
-
+print("####################")
 # Lecture automatique dans un Dictionnaire
 with open('exemple.csv', 'rt') as csv_file:
     csv_dict_reader = csv.DictReader(csv_file)
     for ligne in csv_dict_reader:
         # Avec DictReader, si le fichier contient des entêtes, on peut les utiliser comme clés
         print(f'{ligne["nom"]} | {ligne["prenom"]} | {ligne["age"]} | {ligne["ville"]}')
-
+print("####################")
 # Ecriture directe d'un csv
 with open('personne.csv', 'wt', newline='') as csv_file:
     csv_writer = csv.writer(csv_file)
